@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+nav {
+    position: relative;
+    background-color: #e0dfdf;
+    height: 40px;
+}
+
+.icone {
+    width: 28px;
+    height: 28px;
+}
+.logo {
+    position: absolute;
+}
+
+.imagens {
+    position: absolute;
+    left: 95%;
+}
+
+.menu_itens {
+    position: absolute;
+    right: 70%;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.hero_imagem {
+    width: 800px;
+
+}
