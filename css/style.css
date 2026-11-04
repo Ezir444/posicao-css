@@ -7,7 +7,7 @@
 nav {
     position: relative;
     background-color: #e0dfdf;
-    height: 40px;
+    height: 60px;
 }
 
 .icone {
@@ -21,6 +21,7 @@ nav {
 .imagens {
     position: absolute;
     left: 95%;
+    top: 20%;
 }
 
 .menu_itens {
@@ -29,6 +30,7 @@ nav {
     list-style: none;
     display: flex;
     gap: 15px;
+    top: 30%;
 }
 
 .hero_imagem {
