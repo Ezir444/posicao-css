@@ -4,10 +4,15 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-nav {
+
+header {
     position: relative;
     background-color: #e0dfdf;
     height: 60px;
+}
+
+main {
+    position: relative;
 }
 
 .icone {
@@ -16,6 +21,7 @@ nav {
 }
 .logo {
     position: absolute;
+    left: 1%;
 }
 
 .imagens {
@@ -28,12 +34,54 @@ nav {
     position: absolute;
     right: 70%;
     list-style: none;
-    display: flex;
     gap: 15px;
     top: 30%;
 }
 
-.hero_imagem {
-    width: 800px;
-
+.menu_itens li {
+    display: inline;
 }
+.hero_imagem {
+    image-rendering: auto;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: top 50px;
+}
+
+.titulo {
+    position: absolute;
+    right: 50%;
+    transform: translate(50%,50%);
+}
+.botao_compre {
+    position: absolute;
+    border: blue solid;
+    border-radius: 50px;
+    background-color: rgb(75, 75, 233);
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    z-index: 1;
+    left: 90%;
+    bottom: 10%;
+}
+
+.imagem_card {
+    width: 200px;
+    align-items: center;
+}
+
+.container_card {
+    top: 110%;
+    position: absolute;
+    left: 15%;
+    background-color: #BDBBB7;
+}
+
+.card {
+    display: inline-block;
+    border: 1px black solid;
+    padding: 10px;
+}
+
